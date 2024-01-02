@@ -1,7 +1,6 @@
 using static System.Console;
 using System.Collections.Generic;
 
-
 namespace Finals
 {
     internal class Menu
@@ -72,4 +71,3 @@ namespace Finals
         }
     }
 }
-
