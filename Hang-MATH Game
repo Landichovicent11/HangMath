@@ -863,7 +863,6 @@ namespace Finals
                     Console.Clear();
                     if (health != 0)
                     {
-
                         index = rnd.Next(Op3.Length);
                         num1 = rnd.Next(1, 101);
                         num2 = rnd.Next(1, 61);
