@@ -7,21 +7,15 @@ namespace Finals
     {
         private const string ScoreFileName = "scores.txt"; // File to store scores
 
-
-```
-
         public void Start()
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
-
 
             Title = "The Hangers - Hang Math!";
             RunMainMenu();
             ReadKey(true);
             SetWindowSize(150, 30);
         }
-
-```
 
         private void RunMainMenu()
         {
@@ -205,14 +199,10 @@ namespace Finals
   ☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻═☻");
 
 
-
             prompt = prompt.Replace("\n", "\n".PadRight(30));
-
             string[] options = { "Play", "About", "Exit" };
-
             Menu mainMenu = new Menu(prompt, options);
             int selectedIndex = mainMenu.Run();
-
 
             switch (selectedIndex)
             {
@@ -701,10 +691,7 @@ namespace Finals
    	       /T\    |T     /T    /T|      |T\     ╔═╩════════════════════════╩══╗          T|  |T\  /T/  /T\      
 		M      M      M     M        M    ╔═╩═════════════════════════════╩═╗        M    M    M    M     
 	▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀       ");
-            }
-
-                
-            
+            }            
 
         }//end of printman method
 
@@ -1134,8 +1121,6 @@ namespace Finals
             Console.WriteLine("*     PLAY AGAIN? Y/N     *");
             Console.WriteLine("***************************");
             // ... (existing code)
-
-
 
             var P = Console.ReadKey();
             if (P.Key == ConsoleKey.Y)
