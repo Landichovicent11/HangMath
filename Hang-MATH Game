@@ -7,7 +7,10 @@ namespace Finals
     {
         private const string ScoreFileName = "scores.txt"; // File to store scores
 
-        ```public void Start()
+
+```
+
+        public void Start()
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
 
@@ -16,7 +19,9 @@ namespace Finals
             RunMainMenu();
             ReadKey(true);
             SetWindowSize(150, 30);
-        }```
+        }
+
+```
 
         private void RunMainMenu()
         {
