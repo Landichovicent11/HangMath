@@ -1,2 +1,3 @@
 # Hang-Math
-ITEC Finals Project
+
+ITEC 101 Finals Project
